@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simulateur de DATA</title>
+
+    <noscript><link rel="stylesheet" href="../new/noscript.css" /></noscript>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer/css/index.css">
+    <link rel="stylesheet" href="./assets/css/orange.v1.9.121.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    
+
+
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
+    <script>
+        window.sr = ScrollReveal({
+          distance: '50px',
+          duration: 1000,
+          easing: 'ease',
+          mobile: true,
+          reset: true,
+          viewFactor: 0.4,
+        });
+    </script>
+
+
+</head>
+<body>
+<!-- ==================================================NAVABAR===================================================-->
+    <div class="bar">
+        <div id="menu">
+            <div>
+                <a href="#parallax">
+                    ACCUEIL
+                </a> 
+            </div>
+            <div>
+                <a href="#app">
+                    APPLICATION
+                </a> 
+            </div>
+            <div>
+                <a href="#form">
+                    INSCRIPTION
+                </a> 
+            </div>
+            <div>
+                <a href="#footer">
+                    CONTACT
+                </a> 
+            </div>  
+        </div>
+    </div>
+<!-- ====================================================PARALLAX================================================-->
+    <div id="parallax"></div>
+<!-- ===================================================APPLICATION==============================================-->
+    <div class="container-fluid bg-1">
+        <h1>ESTIMEZ VOTRE CONSOMMATION</h1>
+    </div>  
+<!-- ============================================================================================================-->
+    <section id="app">
+        
+        <div class="container bg-1">
+            <section class="block  " id="address-bf07c619ed470c28b24da486d263c4bd">
+                <div class="container">
+                    <article class="onlineediteur onlineediteur--block">
+                        <div class="ezxmltext-field">
+                            <!-- Start content css by Olfactive -->
+                            <link rel="stylesheet" href="./assets/css/bootstrap.css" title="" charset="utf-8">
+                            <link rel="stylesheet" href="./assets/css/rangeslider.css" title="" charset="utf-8">
+                            <link rel="stylesheet" href="./assets/css/simulateur.css" title="" charset="utf-8">
+                            <!-- Finish content css by Olfactive -->
+                            <div class="row nomargin main">
+                                <!-- start block Page Internet  -->
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="internet" class="blocksimulateur">
+            
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">
+                                                    Page Internet
+                                                </div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une heure = 12 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="720" step="1" datainternet="12" dataonkilooctet="0" value="0" id="internetrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint internetrange">0</span>
+                                                <span class="valuestring">heures</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="internetrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Page Internet -->
+            
+            
+                                <!-- start block E-mails sans pièce jointe -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="emailsanspiecejointe" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">E-mails sans pièce jointe</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">1 email = 10 Ko</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="2800" step="1" dataemail="10" dataonkilooctet="0" value="0" id="emailsanspiecejointerange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint emailsanspiecejointerange">0</span>
+                                                <span class="valuestring">e-mails</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="emailsanspiecejointerangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block E-mails sans pièce jointe-->
+            
+            
+                                <!-- start block E-mails avec pièce jointe -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="emailavecpiecejointe" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">E-mails avec pièce jointe</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">1 email = 500 Ko</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="2800" step="1" value="0" dataonkilooctet="0" dataemailwithpiecej="500" id="emailavecpiecejointerange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint emailavecpiecejointerange">0</span>
+                                                <span class="valuestring">e-mails</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="emailavecpiecejointerangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block E-mails avec pièce jointe-->
+            
+            
+                                <!-- start block Musique en streaming -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="musicenstreaming" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Musique en streaming</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une heure = 45 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="720" step="1" value="0" dataonkilooctet="0" datamusicenstreamingrange="45" id="musicenstreamingrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint musicenstreamingrange">0</span>
+                                                <span class="valuestring">heures</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="musicenstreamingrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Musique en streaming-->
+            
+            
+                                <!-- start block Vidéo en HD ou TV d’Orange -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="videohdenstreaming" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Vidéos en streaming HD</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une heure = 900 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="720" step="1" value="0" dataonkilooctet="0" datastreaminghd="900" id="videohdenstreamingrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint videohdenstreamingrange">0</span>
+                                                <span class="valuestring">heures</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="videohdenstreamingrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Vidéo en HD ou TV d’Orange-->
+                                
+            
+                                <!-- start block Téléchargement -->
+                                    
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="telechargement" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Téléchargement</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une application = 20 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="200" step="1" value="0" dataonkilooctet="0" dataaplication="20" id="telechargementrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint telechargementrange">0</span>
+                                                <span class="valuestring">applis</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="telechargementrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Téléchargement-->
+                                
+                                <!-- start block Tchat, messagerie instantanée -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="tchat" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Tchat, messagerie instantanée</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="picto-info" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+            
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une heure = 2 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="720" step="1" value="0" dataonkilooctet="0" datatchat="2" id="tchatrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint tchatrange">0</span>
+                                                <span class="valuestring">heures</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="tchatrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Tchat, messagerie instantanée-->
+            
+            
+                                <!-- start block Post photo sur réseaux sociaux ou cloud -->
+            
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="photos" class="blocksimulateur noborder">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Post photo sur réseaux sociaux ou cloud</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <a class="glyphicon glyphicon-info-sign" href="#" title="">
+                                                        <i class="icon ic-assistance ic-FS-25"></i>
+                                                    </a>
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">une photo = 1 Mo</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input class="all_range" type="range" min="0" max="200" step="1" value="0" dataonkilooctet="0" dataphoto="1" id="photosrange">
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="valueint photosrange">0</span>
+                                                <span class="valuestring">photos</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="photosrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block Post photo sur réseaux sociaux ou cloud-->
+
+                                <!-- start block partage de connexion -->
+
+                                <div class="col-sm-12 col-xs-12 nopadding">
+                                    <div id="videoenstreaming" class="blocksimulateur">
+                                        <div class="col-sm-3 paddingLeft">
+                                            <div class="informationleft">
+                                                <div class="simulateur-icons-text">Partage de connexion</div>
+                                                <div class="zone-info fr simulateur-icons-infobulle">
+                                                    <div class="content-info">
+                                                        <div class="arrow_box">ratio moyen*0.5/nombre de personne</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+            
+                                        <div class="col-sm-5 nopaddingrightrangeinput paddingLeftmobile">
+                                            <input type="range" min="1" max="7" step="1" value="1"  class="partage" id="videoenstreamingrange"  style>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-2 leftvaluerange paddingLeftmobile">
+                                            <span class="valuerange">
+                                                <span class="value_partage"></span>
+                                                <span class="valuestring">personne</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-sm-2 col-xs-10 rightselect">
+                                            <div id="videoenstreamingrangeselect"></div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!--  finish block partage de connexion-->
+
+            
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="results" id="dos" class="navbar fixed-right navbar-light bg-light">
+                    <div class="container">
+                        <article class="onlineediteur onlineediteur--block">
+                            <div class="ezxmltext-field">
+                                <!-- Start content HTML by Olfactive -->
+                      
+        
+                                <div class="col-sm-12 col-xs-12 estimationazero paddingLeftmobile">
+                                    <p>Consommation estimée à  :</p>
+                                    <p class="total_usage" id="total_usage">
+                                        <span id="get_total" class="total_usage_value">0</span>
+                                    </p>
+                                   
+                                    <button title="" href="#" class="btn btn btn--bb  mrs mob-mbs mettreazerosimulateur" id="btn--bb-sumilateur">Remettre à zéro</button> 
+                                    
+                                </div>
+                                <!-- Finish content HTML by Olfactive -->
+                
+                                <!-- Start content JS by Olfactive -->
+                                <script src="./assets/js/jquery.js"></script>
+                                                                                                                    
+                                <script>
+                                    $.noConflict();
+                                </script>
+                                <script type="text/javascript" src="./assets/js/rangeslider.min.js"></script>
+                                <script type="text/javascript" src="./assets/js/jquery.ddslick.min.js"></script>
+                                <script type="text/javascript" src="./assets/js/simulateur.js"></script>
+                                <!-- Finish content JS by Olfactive -->
+                            </div>
+                        </article>
+                    </div>
+                </section>
+        </div>
+
+<!-- ============================================================================================================================-->
+        
+
+
+    </section>
+
+<!-- =================================================FORFAIT VODAFONE==========================================-->
+
+    <div class="container-fluid bg-1">
+        <h1>CHOISISSEZ VOTRE FORFAIT</h1>
+    </div>  
+<!-- =====================================================#FORM=================================================-->
+    <section id="form">
+        <div class="container bg-2">
+            
+            <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+                    
+                <div class="wrapper wrapper--w790">
+                    <div class="card card-5">
+                        <div class="card-heading">
+                            <h2 class="title">Formulaire d'inscription aux Forfaits VodaSurf</h2>
+                        </div>
+                        
+                    <div class="card-body">
+                        <form method="POST">
+                            <div class="form-row m-b-55">   
+                                <div class="name">Noms | Prénom</div>
+                                <div class="value">
+                                    <div class="row row-space">
+                                        <div class="col-sm-5">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="first_name">
+                                                <label class="label--desc">Nom</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-5">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="last_name">
+                                                <label class="label--desc">Prénoms</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-row m-b-55">
+                                <div class="name">Né(e) le</div>
+                                <div class="value">
+                                    <div class="row row-space">
+                                        <div class="col-sm-5">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="date" name="date">
+                                                <label class="label--desc">Date de naissance</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="lieu">
+                                                <label class="label--desc">Lieu de naissance</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-row">
+                                <div class="name">Adresse géographique</div>
+                                <div class="value">
+                                    <div class="input-group">
+                                        <input class="input--style-5" type="text" name="company">
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-row">
+                                <div class="name">Commune</div>
+                                <div class="value">
+                                    <div class="input-group">
+                                        <input class="input--style-5" type="text" name="company">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="name">Email</div>
+                                <div class="value">
+                                    <div class="input-group">
+                                        <input class="input--style-5" type="email" name="email">
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-row m-b-55">
+                                <div class="name">Numéro de téléphone</div>
+                                <div class="value">
+                                    <div class="row row-refine">
+                                        <div class="col-9">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="phone">
+                                                <label class="label--desc">Phone Number</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="name">Forfaits Vodasurf</div>
+                                <div class="value">
+                                    <div class="bloc">
+                                        <div class="select">
+                                        <select>
+                                            <optgroup label="Vodasurf" value="1">
+                                            <option>Vodasurf 20</option>
+                                            <option>Vodasurf 60</option>
+                                            <option>Vodasurf 90</option>
+                                            <option>Vodasurf 120</option>
+                                            </optgroup>
+                                            <optgroup label="Vodasurf illimité" value="2">
+                                            <option>Vodasurf illimité 8</option>
+                                            <option>Vodasurf illimité 30</option>
+                                            <option>Vodasurf illimité 40</option>
+                                            <option>Vodasurf illimité 50</option>
+                                            </optgroup>
+                                            <optgroup label="Vodasurf Pocket" value="3">
+                                            <option>Vodasurf Pocket</option>
+                                            </optgroup>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-row p-t-20">
+                                <label class="label label--block">Etes-vous déjà client?</label>
+                                <div class="yn">
+                                    <label class="radio-container m-r-55">Oui
+                                        <input type="radio" checked="checked" name="exist">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Non
+                                        <input type="radio" name="exist">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit">S'inscrire</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+<!-- =====================================================FOOTER=================================================-->
+    <div id="animation-vf"></div>
+
+    <section id="footer">
+    <footer>
+        <div class="container-fluid bg-3">
+            <div class="row">
+                <div class="col-sm-4">
+                    <br>
+                    <h3>Team work</h3>  
+                    <ul>
+                        <li>Faatau Antoine</li>
+                        <li>Lefèvre Edmond</li>
+                        <li>Poetai Gaëlle</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <br>
+                    <h3>Vodafone Tahiti</h3>
+                    <ul>
+                        <li>
+                                <a href="https://www.vodafone.pf" title="Vodafone Porinetia">https://www.vodafone.pf</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <br>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Adresse: RDO -Auae, BP 335 Polynésie Française, 98712</li>
+                        <li>Téléphone : 40 54 28 28 - 40 47 28 99</li>
+                        <li>Ville: Papeete</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    </section>
+        
+    <div class="container-fluid bg-3">
+        <div class="container-fluid bg-4">
+            <p>Copyright &copy;2019 | mention légal</p>
+        </div>
+    </div>
+
+
+<!-- ============================================================================================================-->
+
+    <script>
+        sr.reveal('.results',{
+          origin: 'top',
+      });
+        
+      </script>
+
+
+</body>
+</html>
+
+
+
+

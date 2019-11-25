@@ -1,0 +1,189 @@
+
+
+
+body, html {
+    background-color: #E6E6E6;
+    margin-top: -1em;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+#parallax {
+    background-image: url("./assets/css/images/background.png");
+    height: 100%;
+    width: 100%;
+    margin-left: em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+p{
+    margin-right: 1em;
+    color: #fff;
+    font-size: 10em;
+}
+
+.bg-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 50%;
+    border-end-start-radius: #3a3a3a;
+    
+}
+
+.bg-2{
+    margin-top: 5%;
+    text-align: center;
+    border-end-start-radius: #3a3a3a;
+
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+
+#app{
+    background-image:url(./assets/css/images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+
+.bar{
+    border: 0px black solid;
+    background-color:#3a3a3a ;
+    width: 102%;
+    height: 6em;
+    margin-left: -0.5em;
+    margin-top: -1em;
+    position: fixed;
+    z-index: 1;
+}
+
+#menu
+{
+    width: 97%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#menu a
+{
+    float: right;
+    color: white;
+    background-color: none;
+    display: flex;
+    text-align: right;
+    padding: 17px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: space-around;
+    transition: 0.3s;
+}
+
+#two{
+    background-color: #E6E6E6;
+}
+
+#menu a:hover
+{
+    color: #e60000;
+}
+
+.results{
+    background-color: #e60000;
+    display: flex;
+    height: 20em;
+    width: 30%;
+    justify-content: center;
+    margin-top: 15%;
+    margin-right: 4em;
+    margin-left: 2em;
+    padding: 0em;
+    border-radius: 1em;
+    box-shadow: 0 0 17px -3px rgba(0,0,0,0.75);
+    
+}
+
+.total_usage{
+    color: #ffffff;
+    height: 1em;
+    width: 4em; 
+}
+
+
+.bg-3{
+
+    background-color: #3A3A3A;
+    color: white;
+    text-align: center; 
+    
+ }
+
+ .bg-4{
+
+    background-color: #3A3A3A;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+ }
+
+#dos{
+    left: 0;
+    bottom: 0;
+    height: 25em;
+    width: 25%;
+    background-color: #e60000;
+    color: white;
+    text-align: center;
+    margin-top: 30%; 
+    
+}
+
+
+#animation-vf {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background: url(./assets/css/images/footer.png) 0 3px repeat-x;
+    zoom: 0.6;
+}
+
+
+/* =========CONTACT=========== */
+
+.contact-form{
+    background:rgba(216, 211, 211, 0.911);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+  }
+  
+  .top{
+    margin-top: -10%;
+  }
+  
+   #contact{
+    overflow: auto;
+    padding: 10px;
+    background-image: url(../image/polynesian-pattern.png);
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: repeat-x;
+    background-size: 250px;
+    background-position: center;
+   }
